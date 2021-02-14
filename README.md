@@ -9,6 +9,7 @@
          - prev_gra += gra**2  
          - ada = np.sqrt(prev_gra)  
          - weight vector-=learning rate*gradient  
+           
 Adagrad更新公式：  
 
 Adam更新公式：  
