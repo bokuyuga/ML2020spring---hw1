@@ -26,3 +26,5 @@ Adam更新公式：
  - logistic regression(LR)  
  - linear discriminant anaysis(LDA)  
  (compare the differences between the two, or explore more methodologies)
+
+- 使用 Mini-batch gradient descent，使training data被分为许多mini-batches，每个小批次依次计算损失和梯度，并更新权重w和偏差b。一旦整个训练集训练完成，训练集会被打散并重新分配成小批次，进行下一轮计算。We repeat such process until max number of iterations is reached.
