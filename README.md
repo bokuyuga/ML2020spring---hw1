@@ -1,4 +1,5 @@
-# ML2020spring - hw1
+# ML2020spring - hw1&hw2  
+# hw1:  
  Regression - PM2.5 Prediction
  - Pesedo code:  
      -  Declare weight vector, initial Ir, and # of iteration  
@@ -17,3 +18,11 @@ Adam更新公式：
 最后，调整学习率为2，迭代6000次 
 
 除此之外，观察PM2.5的值，可以发现没有负数，都是整数，因此对预测值进行了微调，小于0的数都归为0，而对所有的浮点数四舍五入为整数  
+
+
+# hw2:
+ Classification -  Census-Income (KDD) Data Set
+ - build linear binary classifiers to predict whether the income of an indivisual exceeds 50,000 or not.  
+ - logistic regression(LR)  
+ - linear discriminant anaysis(LDA)  
+ (compare the differences between the two, or explore more methodologies)
