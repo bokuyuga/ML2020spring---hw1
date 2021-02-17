@@ -28,3 +28,10 @@ Adam更新公式：
  (compare the differences between the two, or explore more methodologies)
 
 - 使用 Mini-batch gradient descent，使training data被分为许多mini-batches，每个小批次依次计算损失和梯度，并更新权重w和偏差b。一旦整个训练集训练完成，训练集会被打散并重新分配成小批次，进行下一轮计算。We repeat such process until max number of iterations is reached.
+
+- Loss的计算：cross_entropy_loss(y_pred, Y_label)  
+    - cross_entropy = -np.dot(Y_label, np.log(y_pred)) - np.dot((1 - Y_label), np.log(1 - y_pred))  
+- 梯度的计算：gradient(X, Y_label, w, b)  
+    - pred_error = Y_label - y_pred  
+    - w_grad = -np.sum(pred_error * X.T, 1)     
+    - b_grad = -np.sum(pred_error)  
