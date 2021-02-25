@@ -35,3 +35,13 @@ Adam更新公式：
     - pred_error = Y_label - y_pred  
     - w_grad = -np.sum(pred_error * X.T, 1)     
     - b_grad = -np.sum(pred_error)  
+
+Generative Model  
+- 1.Find a function set  
+    - 高斯分布有两个参数，miu和标准差，参数不同  
+    - 或是选用別的distribution model  
+    - 这些不同参数的的distribution集合起来，就是一个model  
+- 2.Goodness of function  
+    - Maximum Likelihood，越有可能sample出training data的分布model越好  
+- 3.Find the best function  
+    - 求最大likelihood，微分后得出最佳解  
