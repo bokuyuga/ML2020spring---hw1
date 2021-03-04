@@ -36,7 +36,7 @@ Adam更新公式：
     - w_grad = -np.sum(pred_error * X.T, 1)     
     - b_grad = -np.sum(pred_error)  
 
-Generative Model  
+Generative Model  （未实现）
 - 1.Find a function set  
     - 高斯分布有两个参数，miu和标准差，参数不同  
     - 或是选用別的distribution model  
