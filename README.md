@@ -18,7 +18,7 @@ Adam更新公式：
 最后，调整学习率为2，迭代6000次 
 
 除此之外，观察PM2.5的值，可以发现没有负数，都是整数，因此对预测值进行了微调，小于0的数都归为0，而对所有的浮点数四舍五入为整数  
-
+  
 
 # hw2:
  Classification -  Census-Income (KDD) Data Set
@@ -35,7 +35,7 @@ Adam更新公式：
     - pred_error = Y_label - y_pred  
     - w_grad = -np.sum(pred_error * X.T, 1)     
     - b_grad = -np.sum(pred_error)  
-
+  
 Generative Model  （未实现）
 - 1.Find a function set  
     - 高斯分布有两个参数，miu和标准差，参数不同  
